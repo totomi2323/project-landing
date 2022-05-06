@@ -2,6 +2,8 @@ body {
     height : 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    
 }
 .header {
     display: flex;
@@ -27,7 +29,39 @@ body {
    flex: 1 1 auto;
 }
 .top {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    align-items: center;
+}
+.top-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 
+}
+.top-header {
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.top-content {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1 1 0;
+}
+.top-button {
+    background-color: #3882F6;
+    padding: 6px;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+}
+.top-right {
+    display: inline-flex;
+    width:40%;
+    height:300px;
+    border: 1px solid black;
 }
 .information {
 

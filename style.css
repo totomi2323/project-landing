@@ -7,8 +7,8 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-evenly;
-    padding: 24px;
+    justify-content: space-between;
+    padding: 24px 200px;
     background-color: #1f2937;
     
 }
@@ -31,11 +31,11 @@ body {
 }
 .top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
     padding: 30px;
-     padding: 0 200px;
+    padding: 0 200px;
 }
 .top-left {
     display: flex;
@@ -60,6 +60,7 @@ body {
     color: white;
     border-radius: 10px;
     width: 80px;
+    border-color: #F9FAF8;
 }
 .top-right {
     display: inline-flex;
@@ -117,9 +118,30 @@ body {
     align-self: flex-end;
 }
 .action {
+    display:flex;
+    margin: 50px 30%;
+    background-color: #3882F6;
+    padding: 30px;
+    color:#F9FAF8;
+    justify-content: space-evenly;
+    border-radius: 20px;
+      
+    align-items: center;
 
 }
-
+.action-message {
+ display: flex;
+ flex-direction: column;
+ gap:10px;
+}
+.firstAction {
+    font-size: 24px; ;
+    
+}
+.secondAction {
+ font-size: small;
+ color: #E5E7EB;
+}
 .footer {
     display: flex;
     justify-content: center;

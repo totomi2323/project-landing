@@ -1,18 +1,50 @@
 body {
-    background-color: #1f2937;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
 }
-header {
+.header {
     display: flex;
     justify-content: space-evenly;
-    padding: 16px;
-    color:white;
+    padding: 24px;
+    background-color: #1f2937;
 }
 .links {
     display: flex;
     gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 
 }
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color:#F9FAF8;
+
+}
+
+.content {
+   flex: 1 1 auto;
+}
+.top {
+
+}
+.information {
+
+}
+.inspiration {
+
+}
+.action {
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    padding: 24px;
+    font-size: 18px;
+    background-color: #1f2937;
 }
